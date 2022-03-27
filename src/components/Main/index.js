@@ -11,7 +11,7 @@ const Main = () => {
   console.log(currentRecipee[0]);
 
   return (
-    <div className="w-2/3 h-full">
+    <div className="lg:w-2/3 w-full h-full">
       {currentRecipee && <RecipeeCard recipee={currentRecipee[0]} />}
       {console.log("Inside render")}
       {console.log(currentRecipee[0])}

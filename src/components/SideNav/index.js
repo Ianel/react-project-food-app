@@ -9,7 +9,7 @@ const SideNav = () => {
   const [recipees, setRecipees] = useState(datas);
 
   return (
-    <aside className="w-1/3 m-8">
+    <aside className="lg:w-1/3 w-full px-8 m-4 lg:m-8">
       <h2 className="text-center text-2xl font-bold m-4">Menu</h2>
       <div className="flex flex-col">
         {recipees.map((recipee) => {

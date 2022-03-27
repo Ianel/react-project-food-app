@@ -7,9 +7,13 @@ export const RecipeeCard = ({ recipee }) => {
   return (
     <div className="shadow-md m-8">
       <img className="mx-auto" src={image} alt={label} />
-      <div className="flex flex-row justify-between items-center py-12">
-        <p className="px-12 text-xl font-bold">{label}</p>
-        <p className="px-12 text-xl font-bold">Ar {price}</p>
+      <div className="flex flex-row justify-between items-center py-4 lg:py-12">
+        <p className="lg:px-12 px-4 md:px-8 md:text-lg md:py-4 text-sm lg:text-xl font-bold">
+          {label}
+        </p>
+        <p className="lg:px-12 px-4 md:px-8 md:text-lg md:py-4 text-sm lg:text-xl font-bold">
+          Ar {price}
+        </p>
       </div>
     </div>
   );

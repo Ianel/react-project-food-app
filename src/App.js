@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <MainProvider>
-        <h1 className="text-center text-2xl m-8 font-bold">Food App</h1>
-        <div className="flex flex-row justify-between">
+        <h1 className="text-center text-2xl lg:m-8 m-4 font-bold">Food App</h1>
+        <div className="flex flex-col justify-between items-center lg:flex-row lg:justify-between">
           <SideNav />
           <Main />
         </div>
